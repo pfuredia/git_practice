@@ -4,5 +4,28 @@ body {
     text-align: center;
 }
 h1 {
-    font-size: 60px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+.link {
+    color: aquamarine;
+    font-size: 16px;
+}
+video {
+    background-color: black;
+    text-align: center;
+}
+.guide {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+}
+.likes {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color: gray;
+}
+img {
+    
 }
