@@ -11,6 +11,7 @@ h1 {
 .link {
     color: aquamarine;
     font-size: 16px;
+    margin-bottom: 10px;
 }
 video {
     background-color: black;
@@ -27,5 +28,17 @@ video {
     color: gray;
 }
 img {
-    
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.phone {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.footLink {
+    text-align: right;
+    color: gray;
+    font-size: 20px;
+    font-weight: normal;
 }
