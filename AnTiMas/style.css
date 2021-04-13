@@ -78,4 +78,18 @@ main {
     text-align: center;
     font-size: 50px;
     margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+footer {
+    position: relative;
+    top: 8rem;
+    background-color: aqua;
+    height: 50px;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 1rem;
+    border-top: 2px solid;
+    text-align: center;
 }
