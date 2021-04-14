@@ -1,23 +1,15 @@
-/* Color Theme Swatches in Hex */
-.Pop-Plant-1-hex { color: #8C8A64; }
-.Pop-Plant-2-hex { color: #402D15; }
-.Pop-Plant-3-hex { color: #F2D0A7; }
-.Pop-Plant-4-hex { color: #A66641; }
-.Pop-Plant-5-hex { color: #401201; }
-
 /* Color Theme Swatches in RGBA */
-.Pop-Plant-1-rgba { color: rgba(140, 138, 100, 1); }
-.Pop-Plant-2-rgba { color: rgba(64, 45, 21, 1); }
-.Pop-Plant-3-rgba { color: rgba(242, 208, 167, 1); }
-.Pop-Plant-4-rgba { color: rgba(166, 102, 65, 1); }
-.Pop-Plant-5-rgba { color: rgba(64, 18, 1, 1); }
+.personal_1_color { color: rgba(140, 138, 100, 1); }
+.personal-2-color { color: rgba(64, 45, 21, 1); }
+.personal-3-color { color: rgba(242, 208, 167, 1); }
+.personal-4-color { color: rgba(166, 102, 65, 1); }
+.personal-5-color { color: rgba(64, 18, 1, 1); }
 
-/* Color Theme Swatches in HSLA */
-.Pop-Plant-1-hsla { color: hsla(56, 16, 47, 1); }
-.Pop-Plant-2-hsla { color: hsla(33, 50, 16, 1); }
-.Pop-Plant-3-hsla { color: hsla(32, 74, 80, 1); }
-.Pop-Plant-4-hsla { color: hsla(21, 43, 45, 1); }
-.Pop-Plant-5-hsla { color: hsla(16, 96, 12, 1); }
+.personal-1-backcol { background-color: rgba(140, 138, 100, 1); }
+.personal-2-backcol { background-color: rgba(64, 45, 21, 1); }
+.personal-3-backcol { background-color: rgba(242, 208, 167, 1); }
+.personal-4-backcol { background-color: rgba(166, 102, 65, 1); }
+.personal-5-backcol { background-color: rgba(64, 18, 1, 1); }
 
 @font-face {
     font-family: 'AbrilFatface';
@@ -41,7 +33,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: Roboto;
     src: url('fonts/Roboto-Regular.ttf'), url('fonts/Roboto-Thin.ttf'), url('fonts/Roboto-Black.ttf'), url('fonts/Roboto-MediumItalic.ttf'), url('fonts/Roboto-Medium.ttf'), url('fonts/Roboto-LightItalic.ttf'), url('fonts/Roboto-Light.ttf'), url('fonts/Roboto-Italic.ttf'), url('fonts/Roboto-BoldItalic.ttf'), url('fonts/Roboto-Bold.ttf'), url('fonts/Roboto-BlackItalic.ttf'), url('fonts/Roboto-ThinItalic.ttf');
@@ -50,10 +41,18 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     background-color: black;
     color: white;
     font-family: Roboto;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a :hover {
+   background-color: rgba(140, 138, 100, 1);
 }
 header {
     width: 100%;
@@ -62,6 +61,7 @@ header {
     padding: 0;
     display: inline-block;
     position: fixed;
+    z-index: 10;
 }
 
 header h1 {
@@ -80,9 +80,37 @@ main {
     border: 1px solid ;
     margin-top: 30px;
     font-family: Lato;
+    align-items: center;
+    justify-content: center;
 }
+.colors div {
+    border-radius: 10%;
+    width: 18%;
+    height: 5rem;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin: 5px 5px;
+}
+.colors div p {
+    text-transform: uppercase;
+}
+.fonts div {
+    text-align: center;
+    border: 1px solid white;
+    margin: 5px;
+    line-height: 2rem;
+}
+
 main h2 {
     text-transform: uppercase;
     text-align: center;
     font-family: Montserrat;
+    display: block;
 }
+
+.font1 {font-family: AbrilFatFace;}
+.font2 {font-family: Lato;}
+.font3 {font-family: Lora;}
+.font4 {font-family: Montserrat;}
+.font5 {font-family: Roboto;}
