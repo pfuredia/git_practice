@@ -1,0 +1,88 @@
+/* Color Theme Swatches in Hex */
+.Pop-Plant-1-hex { color: #8C8A64; }
+.Pop-Plant-2-hex { color: #402D15; }
+.Pop-Plant-3-hex { color: #F2D0A7; }
+.Pop-Plant-4-hex { color: #A66641; }
+.Pop-Plant-5-hex { color: #401201; }
+
+/* Color Theme Swatches in RGBA */
+.Pop-Plant-1-rgba { color: rgba(140, 138, 100, 1); }
+.Pop-Plant-2-rgba { color: rgba(64, 45, 21, 1); }
+.Pop-Plant-3-rgba { color: rgba(242, 208, 167, 1); }
+.Pop-Plant-4-rgba { color: rgba(166, 102, 65, 1); }
+.Pop-Plant-5-rgba { color: rgba(64, 18, 1, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Pop-Plant-1-hsla { color: hsla(56, 16, 47, 1); }
+.Pop-Plant-2-hsla { color: hsla(33, 50, 16, 1); }
+.Pop-Plant-3-hsla { color: hsla(32, 74, 80, 1); }
+.Pop-Plant-4-hsla { color: hsla(21, 43, 45, 1); }
+.Pop-Plant-5-hsla { color: hsla(16, 96, 12, 1); }
+
+@font-face {
+    font-family: 'AbrilFatface';
+    src: url('fonts/AbrilFatface-Regular.ttf');
+}
+@font-face {
+    font-family: Lato;
+    src: url('fonts/Lato-Black.ttf'), url('fonts/Lato-BlackItalic.ttf'), url('fonts/Lato-Bold.ttf'), url('fonts/Lato-BoldItalic.ttf'), url('fonts/Lato-Italic.ttf') url('fonts/Lato-Light.ttf') url('fonts/Lato-LightItalic.ttf') url('fonts/Lato-Regular.ttf') url('fonts/Lato-Thin.ttf'), url('fonts/Lato-ThinItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Lora;
+    src: url('fonts/Lora-Bold.ttf'), url('fonts/Lora-BoldItalic.ttf'), url('fonts/Lora-Italic-VariableFont_wght.ttf'), url('fonts/Lora-Italic.ttf'), url('fonts/Lora-Medium.ttf'), url('fonts/Lora-MediumItalic.ttf'), url('fonts/Lora-Regular.ttf'), url('fonts/Lora-SemiBold.ttf'), url('fonts/Lora-SemiBoldItalic.ttf'), url('fonts/Lora-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url('fonts/Montserrat-Black.ttf'), url('fonts/Montserrat-BlackItalic.ttf'),url('fonts/Montserrat-Bold.ttf'), url('fonts/Montserrat-BoldItalic.ttf'), url('fonts/Montserrat-ExtraBold.ttf'), url('fonts/Montserrat-ExtraBoldItalic.ttf'), url('fonts/Montserrat-ExtraLight.ttf'), url('fonts/Montserrat-ExtraLight.ttf'), url('fonts/Montserrat-ExtraLightItalic.ttf'), url('fonts/Montserrat-ExtraLightItalic.ttf'), url('fonts/Montserrat-Italic.ttf'), url('fonts/Montserrat-Light.ttf'), url('fonts/Montserrat-LightItalic.ttf'), url('fonts/Montserrat-Medium.ttf'), url('fonts/Montserrat-MediumItalic.ttf'), url('fonts/Montserrat-Regular.ttf'), url('fonts/Montserrat-SemiBold.ttf'), url('fonts/Montserrat-SemiBoldItalic.ttf'), url('fonts/Montserrat-Thin.ttf'), url('fonts/Montserrat-ThinItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('fonts/Roboto-Regular.ttf'), url('fonts/Roboto-Thin.ttf'), url('fonts/Roboto-Black.ttf'), url('fonts/Roboto-MediumItalic.ttf'), url('fonts/Roboto-Medium.ttf'), url('fonts/Roboto-LightItalic.ttf'), url('fonts/Roboto-Light.ttf'), url('fonts/Roboto-Italic.ttf'), url('fonts/Roboto-BoldItalic.ttf'), url('fonts/Roboto-Bold.ttf'), url('fonts/Roboto-BlackItalic.ttf'), url('fonts/Roboto-ThinItalic.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: Roboto;
+}
+header {
+    width: 100%;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: fixed;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: "AbrilFatFace";
+}
+main {
+    position: relative;
+    top: 8em;
+}
+
+.colors, .fonts, .text-styles {
+    border: 1px solid ;
+    margin-top: 30px;
+    font-family: Lato;
+}
+main h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Montserrat;
+}
